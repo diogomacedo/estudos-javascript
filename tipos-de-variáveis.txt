@@ -1,0 +1,23 @@
+[ Tipos de Dados ]
+
+* Dividem-se em:
+
+    - Primitivos
+    - Objetos
+
+* Os tipos primitivos são imutáveis
+
+* Existem 6 tipos primitivos: number, string, boolean, symbol ( novo - foi add no ES6 ) , null ( curiosidade: quando o comando typeof é executado em cima de um "null", ele retorna öbject") e undefined
+
+CURIOSIDADE 01: REPL - terminal do node "Read Eval Print and Loop"
+CURIOSIDADE 02: typeof é uma função que exibe/mostra o tipo de dado envolvido. O typeof não é igual ao instanceof. Um typeof "object" pode ser um instanceof de "date" ou "array".
+
+CURIOSIDADE 03: O javascript adiciona os tipos primitivos num "wrapper" ( processo de boxing - como se fossem objetos ) para disponibilizar algumas funcionalidades padrão referente ao tipo de variável(Prototype)
+
+* Objetos são valores que representam uma referência em memória que pode ser alterada
+
+CURIOSIDADE 04: A função tem um tipo de dado específico e também passa pelo processo de boxing
+
+CURIOSIDADE 05: typeof e instanceof são operadores
+
+
