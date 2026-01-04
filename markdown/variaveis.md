@@ -1,7 +1,3 @@
-|        |
-|------:|
-| [Voltar ao texto principal](./../README.md) |
-
 # Variáveis
 
 ## Declaração
@@ -71,3 +67,6 @@ Nunca declarar variável sem var, let ou const.
 - Deve começar com **[a-zA-Z_$]**, ou seja, o primeiro caracter deve possuir um desses valores; 
 - Após o primeiro caracter, deve ser seguido por [a-zA-Z0-9_$]
 
+
+
+[Voltar para a página principal](./../README.md)
