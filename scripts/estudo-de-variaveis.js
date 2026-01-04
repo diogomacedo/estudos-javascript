@@ -1,25 +1,3 @@
-// console.log('Testes com o \'var\' ');
-
-// console.log('Antes', pi);
-// var pi = 3.141592;
-// console.log('Depois', pi);
-
-
-// pi = 3;
-// console.log('Reatribuição', pi);
-
-
-// console.log('Parte estranha:');
-// var pi=2;
-// console.log('redeclaração e reatribuição', pi);
-
-
-// console.log('Acessando variável fora do escopo, antes do escopo', x);
-// if (true) {
-//   var x = 3.141592;
-// }
-// console.log('Acessando variável fora do escopo', x);
-
 // console.log('Testes com o \'let\' ');
 
 // console.log('Antes', pi); <-- lança erro 'ReferenceError'

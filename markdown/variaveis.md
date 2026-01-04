@@ -33,6 +33,8 @@ Envolve 3 etapas:
 
 Na montagem do contexto de execução, o interpretador passa pelo código e quando ele se depara com uma variável declarada com **var**, ele faz a declaração dela no início do contexto de execução e a inicializa com *undefined*.
 
+O arquivo [script-01-testes-com-var.js](./../scripts/script-01-testes-com-var.js) tem alguns testes utilizando **var**.
+
 ## Declarando uma variável com **let**
 
 - É mais restritiva do que o **var**, ou seja, é mais determinística no modo de agir;
