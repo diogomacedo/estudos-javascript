@@ -1,3 +1,7 @@
+|        |
+|------:|
+| [Voltar ao texto principal](./../README.md) |
+
 # Variáveis
 
 ## Declaração

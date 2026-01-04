@@ -1,4 +1,7 @@
 ## Estudos Javascript
 
-Este repositório tem conteúdos diversos sobre o universo javascript.
-Fui criando e/ou coletando esses conteúdos durante meus estudos.
+Este repositório tem alguns resumos que foram criados durante os meus estudos de javascript.<br>
+
+Segue abaixo a lista dos resumos.
+
+- [Variáveis](markdown/variaveis.md)
