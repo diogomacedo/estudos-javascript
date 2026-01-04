@@ -22,51 +22,47 @@ Envolve 3 etapas:
 1. **Inicialização**: a variável é inicializada com o valor padrão ( *undefined* )
 1. **Atribuição**: um valor é atribuído diretamente a variável
 
+> É importante ressaltar que há uma separação entre declaração e inicialização, ou seja, são etapas diferentes que acontecem em momentos diferentes.
+
 ## Declarando uma variável com **var**
 
-- Declarada e inicializada no escopo da função;
+- É declarada e inicializada no escopo da função;
 - Não respeita o bloco, ou seja, é permitido acessar a variável fora do escopo onde foi criada;
-- Permite redeclaração
-- Permite reatribuição
+- Permite redeclaração;
+- Permite reatribuição.
 
-> Permitir a redeclaração de uma variável é um comportamento estranho.
-
-> **Curiosidade**: toda vez que algo é executado em javascript, há uma função que envolve o trecho executado. 
-
-Na montagem do contexto de execução, o interpretador passa pelo código e quando ele se depara com uma variável declarada com **var**, ele faz a declaração no início do contexto de execução e a inicializa com *undefined*.
+Na montagem do contexto de execução, o interpretador passa pelo código e quando ele se depara com uma variável declarada com **var**, ele faz a declaração dela no início do contexto de execução e a inicializa com *undefined*.
 
 ## Declarando uma variável com **let**
 
-- **let** é mais restritiva do que o **var**, ou seja, podemos dizer que é mais determinística no modo de agir.
+- É mais restritiva do que o **var**, ou seja, é mais determinística no modo de agir;
 - Foi criada para manter a retro compatibilidade dos códigos existentes;
 - A variável é declarada no escopo da função e é inicializada só depois;
-- Respeita blocos;
+- Respeita o bloco onde foi declarada;
 - Permite reatribuição;
-- Não permite redeclaração;
-
-> Há uma separação entre a declaração e a Inicialização.
+- Não permite redeclaração.
 
 ## Declarando uma variável com **const**
 
-- A variável é declarada no escopo da função;
-- A variável é inicializada só depois;
-- Respeita blocos;
+- É declarada no escopo da função, mas é inicializada só depois;
+- Respeita o bloco onde foi declarada;
 - Não permite reatribuição;
-- Não permmite redeclaração;
+- Não permmite redeclaração.
 
-Uma variável criada através de **const** é uma constante. É por isso que não é possível fazer uma reatribuição.
+## Curiosidades e observações
 
-> **Curiosidade**: a área entre a *declação* e a *inicialização* da variável é chamda de **DEAD ZONE**.
-
-Uma variável declarada sem **var**, **let** ou **const** é criada ao **escopo global**.
-
-Nunca declarar variável sem var, let ou const.
+- Permitir a redeclaração de uma variável é um comportamento estranho.
+- Toda vez que algo é executado em javascript, há uma função que envolve o trecho executado. 
+- Uma variável criada através de **const** é uma **constante**. É por isso que não é possível fazer uma reatribuição.
+- A área entre a **declação** e a **inicialização** de uma variável é chamada de **DEAD ZONE**.
+- Uma variável declarada sem **var**, **let** ou **const** é criada no **escopo global**, por isso é importante nunca declarar variável sem **var**, **let** ou **const**.
 
 ## Como nomear / identificar as variáveis
 
-- Deve começar com **[a-zA-Z_$]**, ou seja, o primeiro caracter deve possuir um desses valores; 
-- Após o primeiro caracter, deve ser seguido por [a-zA-Z0-9_$]
+- Os nomes das variáveis devem começar com alguma letra, underline ou cifrão, ou seja, deve respeitar o seguinte regex **[a-zA-Z_$]**; 
+- Após o primeiro caracter, além dos caracteres mencionados no tópico acima, é possível utilizar números, ou seja, deve respeitar o seguinte refex **[a-zA-Z0-9_$]**.
 
-
+<br>
+<br>
 
 [Voltar para a página principal](./../README.md)
