@@ -44,6 +44,17 @@ O arquivo [script-01-testes-com-var.js](./../scripts/script-01-testes-com-var.js
 - Permite reatribuição;
 - Não permite redeclaração.
 
+Segue abaixo uma tabela com arquivos contendo testes de variáveis declaradas com **let**.
+
+| Nome do arquivo | Cenário testado |
+| --------------- | --------------- |
+| [script-02-testes-com-let.js](./../scripts/script-02-testes-com-let.js) | Declaração e reatribuição de variável |
+| [script-03-testes-com-let-erro-acesso-antes-da-declaracao-ReferenceError.js](./../scripts/script-03-testes-com-let-erro-acesso-antes-da-declaracao-ReferenceError.js) | Acesso de variável antes da declaração - lançamento de exceção |
+| [script-04-testes-com-let-erro-redeclaracao-SyntaxError.js](./../scripts/script-04-testes-com-let-erro-redeclaracao-SyntaxError.js) | Redeclaração de variável - lançamento de exceção |
+| [script-05-testes-com-let-erro-acesso-fora-de-escopo-ReferenceError.js](./../scripts/script-05-testes-com-let-erro-acesso-fora-de-escopo-ReferenceError.js) | Acesso de variável fora de escopo - lançamento de exceção |
+
+
+
 ## Declarando uma variável com **const**
 
 - É declarada no escopo da função, mas é inicializada só depois;
