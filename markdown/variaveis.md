@@ -53,8 +53,6 @@ Segue abaixo uma tabela com arquivos contendo testes de variáveis declaradas co
 | [script-04-testes-com-let-erro-redeclaracao-SyntaxError.js](./../scripts/script-04-testes-com-let-erro-redeclaracao-SyntaxError.js) | Redeclaração de variável - lançamento de exceção |
 | [script-05-testes-com-let-erro-acesso-fora-de-escopo-ReferenceError.js](./../scripts/script-05-testes-com-let-erro-acesso-fora-de-escopo-ReferenceError.js) | Acesso de variável fora de escopo - lançamento de exceção |
 
-
-
 ## Declarando uma variável com **const**
 
 - É declarada no escopo da função, mas é inicializada só depois;
