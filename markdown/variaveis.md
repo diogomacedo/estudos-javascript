@@ -60,20 +60,42 @@ Segue abaixo uma tabela com arquivos contendo testes de variáveis declaradas co
 - Não permite reatribuição;
 - Não permmite redeclaração.
 
+Segue abaixo uma tabela com arquivos contendo testes de variáveis declaradas com **const**.
+
+| Nome do arquivo | Cenário testado |
+| --------------- | --------------- |
+| [script-06-testes-com-const-erro-acesso-antes-da-declaracao-ReferenceError.js](./../scripts/script-06-testes-com-const-erro-acesso-antes-da-declaracao-ReferenceError.js) | Acesso de variável antes da declaração - lançamento de exceção |
+| [script-07-testes-com-const-erro-reatribuicao-TypeError.js](./../scripts/script-07-testes-com-const-erro-reatribuicao-TypeError.js) | Reatribuição de variável - lançamento de exceção |
+| [script-08-testes-com-const-erro-redeclaracao-SyntaxError.js](./../scripts/script-08-testes-com-const-erro-redeclaracao-SyntaxError.js) | Redeclaração de variável - lançamento de exceção |
+| [script-09-testes-com-const-erro-acesso-fora-de-escopo-ReferenceError.js](./../scripts/script-09-testes-com-const-erro-acesso-fora-de-escopo-ReferenceError.js) | Acesso de variável fora de escopo - lançamento de exceção |
+
+
 ## Curiosidades e observações
 
-- Permitir a redeclaração de uma variável é um comportamento estranho.
-- Toda vez que algo é executado em javascript, há uma função que envolve o trecho executado. 
-- Uma variável criada através de **const** é uma **constante**. É por isso que não é possível fazer uma reatribuição.
-- A área entre a **declação** e a **inicialização** de uma variável é chamada de **DEAD ZONE**.
-- Uma variável declarada sem **var**, **let** ou **const** é criada no **escopo global**, por isso é importante nunca declarar variável sem **var**, **let** ou **const**.
+- Permitir a redeclaração de uma variável é um comportamento estranho;
+- Toda vez que algo é executado em javascript, há uma função que envolve o trecho executado;
+- Uma variável criada através de **const** é uma **constante**. É por isso que não é possível fazer uma reatribuição;
+- A área entre a **declação** e a **inicialização** de uma variável é chamada de **DEAD ZONE**;
+- Uma variável declarada sem **var**, **let** ou **const** é criada no **escopo global**, por isso é importante nunca declarar variável sem **var**, **let** ou **const**;
+- Uma variável **global** não pode ser utilizada antes da sua declaração, apenas depois;
+- Enquanto uma variável declarada com **var** tem escopo de função, uma variável declarada com **let** ou **const** tem escopo de bloco.
+
+Segue abaixo uma tabela com arquivos com alguns testes.
+
+| Nome do arquivo | Cenário testado |
+| --------------- | --------------- |
+| [script-10-testes-variavel-escopo-global.js](./../scripts/script-10-testes-variavel-escopo-global.js) | Acesso de variável global fora da função, depois da declaração |
+| [script-11-testes-variavel-escopo-global-ReferenceError.js](./../scripts/script-11-testes-variavel-escopo-global-ReferenceError.js) | Acesso de variável global fora da função, antes da declaração - lançamento de exceção |
 
 ## Como nomear / identificar as variáveis
 
 - Os nomes das variáveis devem começar com alguma letra, underline ou cifrão, ou seja, deve respeitar o seguinte regex **[a-zA-Z_$]**; 
 - Após o primeiro caracter, além dos caracteres mencionados no tópico acima, é possível utilizar números, ou seja, deve respeitar o seguinte refex **[a-zA-Z0-9_$]**.
 
-<br>
+O arquivo [script-12-testes-identificadores-validos-de-variaveis.js](./../scripts/script-12-testes-identificadores-validos-de-variaveis.js) tem exemplos de **identificadores válidos**.
+
+Os arquivos [script-13-testes-identificadores-invalidos-de-variaveis-SyntaxError.js](./../scripts/script-13-testes-identificadores-invalidos-de-variaveis-SyntaxError.js) e [script-14-testes-identificadores-invalidos-de-variaveis-SyntaxError.js](./../scripts/script-14-testes-identificadores-invalidos-de-variaveis-SyntaxError.js) têm exemplos de **identificadores inválidos**.
+
 <br>
 
 [Voltar para a página principal](./../README.md)
