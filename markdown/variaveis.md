@@ -1,5 +1,11 @@
 # Variáveis
 
+> Os tópicos abaixo têm arquivos javascript com exemplos.<br>
+> Para executar os arquivos é necessário:<br>
+> - Ter o node instalado;
+> - Baixar o arquivo de exemplo;
+> - Executar o seguinte comando: **node NOME_DO_ARQUIVO.js**
+
 ## Declaração
 
 O **javascript** tem três palavras reservadas para declarar variáveis:
